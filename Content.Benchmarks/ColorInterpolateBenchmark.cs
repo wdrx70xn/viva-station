@@ -14,6 +14,7 @@ using System.Runtime.Intrinsics.X86;
 #endif
 using System;
 using System.Runtime.CompilerServices;
+// Trigger reuse updater
 using BenchmarkDotNet.Attributes;
 using Robust.Shared.Analyzers;
 using Robust.Shared.Maths;
